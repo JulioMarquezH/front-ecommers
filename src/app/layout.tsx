@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import '@picocss/pico'
+import '@picocss/pico';
+
 
 
 const inter = Inter({ subsets: ["latin"] });
