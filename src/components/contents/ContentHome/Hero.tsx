@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         <button className='button-form'>
             <span style={{ marginRight: '10px' }}><IconEmail /></span>
-            phi@yourname.com
+            daniel.marquez@gmail.com
         </button>
       </div>
       <div className='img-right img-hero grid-two' >

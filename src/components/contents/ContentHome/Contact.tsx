@@ -12,7 +12,7 @@ export default function Contact() {
       </p>
       <button className='button-form button-width'>
         <span style={{ marginRight: '10px' }}><IconEmail /></span>
-        phi@yourname.com
+        daniel.marquez@gmail.com
       </button>
     </div>
   );

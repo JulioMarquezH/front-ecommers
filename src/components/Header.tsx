@@ -7,7 +7,7 @@ export default function Header() {
     <div className="container-header">
         <div className="container space-between">
             <img src={signature.src} alt="logo" />
-            <p>Contact</p>
+            {/* <p>Contact</p> */}
         </div>
     </div>
   );
