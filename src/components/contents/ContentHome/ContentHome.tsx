@@ -1,6 +1,7 @@
-import Hero from "@/components/contents/ContentHome/Hero";
-import Gallery from "./Gallery";
+import * as React from "react"
 import Contact from "./Contact";
+import Gallery from "./Gallery";
+import Hero from "./Hero";
 
 
 export default function ContentHome() {

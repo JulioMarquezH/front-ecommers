@@ -1,5 +1,6 @@
-import { DownArrow, IconEmail } from '@/assets/icons/icons';
-import hero from '@/assets/imgs/hero.png'
+import * as React from "react"
+import hero from '../../../assets/imgs/hero.png'
+import { DownArrow, IconEmail } from '../../../assets/icons/icons';
 
 export default function Hero() {
 
@@ -13,20 +14,20 @@ export default function Hero() {
           Inmortalizo recuerdo de personas, lugares o mascostas con retratos o pintura por encargo en acrilico, carbón o oleo.
         </p>
         <button className='button-form'>
-            <span style={{ marginRight: '10px' }}><IconEmail /></span>
-            daniel.marquez@gmail.com
+          <span style={{ marginRight: '10px' }}><IconEmail /></span>
+          daniel.marquez@gmail.com
         </button>
+        <div style={{ display: 'flex' }}>
+          <span style={{ marginRight: '10px' }}>
+            <DownArrow />
+          </span>
+          <p>
+            Trabajos Realizados
+          </p>
+        </div>
       </div>
       <div className='img-right img-hero grid-two' >
-        <img src={hero.src} alt="photo" className='photo-circle' />
-      </div>
-      <div style={{ display: 'flex' }}>
-        <span style={{ marginRight: '10px' }}>
-          <DownArrow />
-        </span>
-        <p>
-          Trabajos Realizados
-        </p>
+        <img src={hero} alt="photo" className='photo-circle' />
       </div>
     </div>
   );

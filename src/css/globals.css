@@ -176,12 +176,14 @@ a {
 
 .button-form {
   width: 50%;
+  min-width: max-content;
   margin-top: 25px;
   background-color: #9D9D9D;
   border: #9D9D9D;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .button-width {
@@ -197,26 +199,26 @@ a {
 
 @media (max-width: 767px) {
   .photo-circle {
-    width: 250px;
-    height: 250px;
+    width: 250px !important;
+    height: 250px !important;
   }
 }
 
 @media (max-width: 700px) {
   .grid {
-      display: block;
+      display: block !important;
   }
 }
 
 @media (max-width: 991px) {
   .img-right {
-      text-align: center;
+      text-align: center !important;
   }
   .grid-hero {
-      display: flex;
-      flex-direction: column-reverse;
+      display: flex !important;
+      flex-direction: column-reverse !important;
   }
   .img-hero {
-      margin-bottom: 30px;
+      margin-bottom: 30px !important;
   }
 }

@@ -1,5 +1,5 @@
-import { IconEmail } from "@/assets/icons/icons";
-
+import * as React from "react"
+import { IconEmail } from "../../../assets/icons/icons";
 
 export default function Contact() {
 

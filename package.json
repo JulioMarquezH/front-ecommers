@@ -1,26 +1,32 @@
 {
-  "name": "front-ecommerce",
-  "version": "0.1.0",
+  "name": "front-ecom",
+  "version": "1.0.0",
   "private": true,
+  "description": "front-ecom",
+  "author": "JulioMarquez975",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@picocss/pico": "^1.5.11",
+    "gatsby": "^5.13.2",
     "masonry-layout": "^4.2.2",
-    "next": "14.1.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-hcaptcha": "^0.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-masonry-css": "^1.0.16"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
   }
 }

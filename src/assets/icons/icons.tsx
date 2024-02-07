@@ -1,3 +1,4 @@
+import * as React from "react"
 
 export function IconEmail({ width = '23px', height = '18px', color = "white" }) {
 
