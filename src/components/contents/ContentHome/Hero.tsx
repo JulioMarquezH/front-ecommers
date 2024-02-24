@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
       </div>
       <div className='img-right img-hero grid-two' >
-        <img src={hero} alt="photo" className='photo-circle' />
+        <img src={hero.src} alt="autor" className='photo-circle' />
       </div>
     </div>
   );
